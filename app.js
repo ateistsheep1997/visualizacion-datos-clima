@@ -1,4 +1,6 @@
 const ctxTemp = document.getElementById('tempChart').getContext('2d');
+
+// Creando gráfico de temperatura
 const tempChart = new Chart(ctxTemp, {
     type: 'line',
     data: {
@@ -27,6 +29,8 @@ const tempChart = new Chart(ctxTemp, {
 });
 
 const ctxPrecip = document.getElementById('precipChart').getContext('2d');
+
+// Creando gráfico de precipitaciones
 const precipChart = new Chart(ctxPrecip, {
     type: 'bar',
     data: {
