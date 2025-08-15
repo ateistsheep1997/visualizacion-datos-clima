@@ -1,3 +1,4 @@
+/* Estilo para el body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,6 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Estilo para el header */
 header {
     background: #3e8e41;
     color: white;
@@ -12,10 +14,12 @@ header {
     text-align: center;
 }
 
+/* Estilo para el main */
 main {
     padding: 20px;
 }
 
+/* Estilo para el canvas */
 canvas {
     max-width: 600px;
     margin: 0 auto;
